@@ -1,0 +1,583 @@
+
+*{  margin:0px;
+    padding: 0px;}
+
+
+
+
+ /*css til forsiden*/   
+
+.video {
+    
+    width: 100%;
+    
+  }
+
+
+
+
+
+.logo {
+
+    padding: 5%;
+}
+
+
+.logo img {
+
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+
+  
+  .forsidestart {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+    height: 200px;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 7%;
+
+    background-color: white;
+ 
+   
+
+}
+
+
+
+
+@media only screen and (max-width: 927px) {
+  .forsidestart{
+      display: flex;
+      flex-wrap: wrap;
+      height: 680px;
+      
+      
+  }
+
+ 
+}
+
+  .forsidestart button{
+   
+    background-color: white;
+    color:black;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    border: 1px;
+    border-radius: 12px;
+    border-color: black;
+    border-style: solid;
+    
+
+    padding: 25px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .forsidestart button:hover{
+    background-color:white;
+    color: black;
+    transform: scale(1.1);
+    border-style:solid;
+    border-color:#782f2f ;
+
+  }
+
+ /*css til bæredygtig siden*/ 
+ .video2  {
+
+  
+  width: 400px;
+  padding-right: 200px;
+  
+
+
+}
+
+
+
+
+
+
+
+.bæredygtighed {
+
+    height: 600px;
+    text-align: center;
+    padding: 10%;
+
+    font-size: 100px;
+    font-weight: lighter;
+    font-family: 'Quicksand', sans-serif;
+    
+
+    
+}
+
+
+
+
+
+.bæredygtighedtekst h1 {
+
+    height: 115px;
+    text-align: center;
+  
+    padding-top: 10%;
+
+    font-size: 70px;
+    
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 5px;
+    
+}
+
+.bæredygtighedtekst p {
+
+  height:   200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  padding-left: 26%;
+ 
+
+  font-size: 20px;
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+
+@media only screen and (max-width: 927px) {
+  .bæredygtighedtekst {
+      
+      height: 680px;
+      
+
+      
+  }
+  .bæredygtighedtekst h1 {
+      
+    height: 250px;
+    
+
+    
+}
+.bæredygtighedtekst p  {
+      
+
+  padding-left: 5%;
+  width: 500px;
+  
+
+  
+}
+
+
+}
+
+
+#infografik1 img {
+
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2000px;
+ 
+}
+
+
+
+#knap3 {
+
+  padding-left: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+#knap3 button{
+   
+  background-color: white;
+  color:black;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border: 1px;
+  border-radius: 12px;
+  border-color: black;
+  border-style: solid;
+  
+
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#knap3 button:hover {
+  background-color:white;
+  color: black;
+  transform: scale(1.1);
+  border-style:solid;
+  border-color:#782f2f ;
+
+}
+
+
+
+.billedsection2 {
+
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+  background-color: white;
+  padding-top: 10%;
+
+
+ 
+
+ 
+
+}
+
+
+  
+@media only screen and (max-width: 927px) {
+  .billedsection2{
+      display: flex;
+      flex-wrap: wrap;
+     
+
+      
+  }
+
+}
+
+#lacabratekst h1 {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-left: 30%;
+ 
+
+  font-size: 25px;
+
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+
+#lacabratekst p {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-left: 30%;
+ 
+
+  font-size: 20px;
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+.video3  {
+
+  
+  width: 600px;
+  padding-right: 10%;
+
+
+
+}
+
+
+.billedsection3 {
+
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  padding-top: 5%;
+
+  background-color: white;
+ 
+
+ 
+
+}
+
+
+@media only screen and (max-width: 927px) {
+  .billedsection3{
+      display: flex;
+      flex-wrap: wrap-reverse;
+     
+
+      
+  }
+}
+
+#planet img {
+
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+
+}
+
+
+
+#emballegetekst h1 {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-right: 40%;
+  
+ 
+
+  font-size: 25px;
+
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+
+
+#emballegetekst p {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-right: 40%;
+
+ 
+
+  font-size: 20px;
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+
+
+
+.billedsection4 {
+
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+
+  background-color: white;
+  padding-top: 10%;
+
+ 
+
+}
+
+@media only screen and (max-width: 927px) {
+  .billedsection3{
+      display: flex;
+      flex-wrap: wrap;
+     
+
+      
+  }
+}
+
+#kaffetekst h1 {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-left: 30%;
+ 
+
+  font-size: 25px;
+
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+
+#kaffetekst p {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-left: 30%;
+ 
+
+  font-size: 20px;
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+#kaffemaskine img {
+
+  width: 630px;
+  padding-right: 10%;
+}
+
+
+/*css til produkt siden*/
+
+#infografik2 {
+
+  padding-left: 15%;
+}
+
+
+#infografik2 img {
+
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+
+}
+
+
+#anmeldelser img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-top: 17%;
+  padding-bottom: 5%;
+  
+}
+
+
+#kaffebønner {
+
+  padding-right: 10%;
+}
+
+
+#grunde h1 {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-left: 40%;
+ 
+
+  font-size: 25px;
+
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+
+#grunde p {
+
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding-left: 40%;
+ 
+
+  font-size: 20px;
+  
+  font-family: 'Quicksand', sans-serif;
+  
+  
+}
+
+
+
+
+
+
+#infografik3 img {
+
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+  padding-bottom: 2%;
+
+}
+
+
+#knapfooter {
+
+  padding-left: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+#knapfooter button{
+   
+  background-color: white;
+  color:black;
+  font-size: 16px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  border: 1px;
+  border-radius: 12px;
+  border-color: black;
+  border-style: solid;
+  
+
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+#knapfooter button:hover {
+  background-color:white;
+  color: black;
+  transform: scale(1.1);
+  border-style:solid;
+  border-color:#782f2f ;
+
+}
